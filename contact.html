@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #cf2e2e
+
+    
+    
+    }
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+    
+.menu li {
+    list-style: none;
+    color: rgb(21, 0, 255);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.navbar {
+    padding: 10px 30px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+ 
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="foto.jpeg" alt="Logo">
+           <span>CLASSCENTRALRIO003131</span>
+        </div>
+       <div>
+<nav class="Menu"> 
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li></li><a href="contact.html">Contact</a></li>
+        <li><a href="service.html">Services</a></li>
+        
+</ul>
+</nav>
+       </div>
+    </header>
+
+    <div class="content">
+        <h1>Contact Us</h1>
+        <p>si vous avez une question ou sugestion , essayez de nous contacter</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+
+
+
+    </div>
+</body>

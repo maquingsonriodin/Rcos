@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>CSS</title>
+  <style>
+    /* ----- NAVBAR ----- */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      background-color: #cf2e2e;
+      padding: 10px 30px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .menu li {
+      list-style: none;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo img {
+      height: 40px;
+      width: 40px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .menu ul {
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+    }
+    .content {
+      display: flex;                 
+      justify-content: space-around; /* espace égal entre les images */
+      align-items: center;
+      width: 100%;                   /* prend toute la largeur */
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+    .content .image img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;            /* cercle parfait */
+      object-fit: cover;             /* garde les proportions sans déformer */
+      transition: transform 0.3s ease;
+    }
+    .content .image img:hover {
+      transform: scale(1.05);
+    } 
+    .lien {
+      text-align: center;
+      margin-top: 8px;
+      font-size: 14px;
+      color: #333;
+      text-decoration: none;
+        display: block;
+        font-weight: 500;
+
+    }
+
+
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="foto.jpeg" alt="Logo">
+      <span>CLASSCENTRALRIO003131</span>
+    </div>
+    <div>
+      <nav class="menu"> 
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="service.html">Services</a></li>
+
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+ <h1>Suivez vos progrès</h1>
+Créez un compte W3Schools gratuit
+ et accédez à plus de fonctionnalités et de supports d’apprentissage :
+<a href="https://pathfinder.w3schools.com/"> S'inscrire</a>
+<ul>
+    <li>Suivez vos progrès</li>
+    <li>Enregistrez vos leçons préférées</li>
+    <li>Participez aux quiz et aux exercices</li>
+    <li>Obtenez des certificats de réussite</li>
+  </ul>
+
+<b>Note:</b> Il s’agit d’une fonctionnalité facultative.
+ Vous pouvez étudier à W3Schools sans créer de compte.
+
+ <h1> Références</h1>
+<p>
+    Chez W3Schools, vous trouverez des références complètes sur les éléments HTML, 
+attributs, événements, noms
+ de couleurs, entités, jeux de caractères, encodage d’URL, 
+ codes de langue, messages HTTP, 
+ prise en charge du navigateur, etc.
+</p>
+ <hr>
+
+  <!-- 3 IMAGES EN BAS -->
+  <div class="content">
+    <div class="image">
+      <a href="https://www.w3schools.com/html/default.asp">
+        <img src="foto.jpeg" alt="Html">
+      </a>
+      <p>Learn Here HTML</p>
+    </div>
+    <div class="image">
+        <a href="https://www.w3schools.com/css/default.asp">
+        <img src="Css.Jpeg" alt="Css">
+      </a>
+      <p>Learn Here CSS</p>
+    </div>
+    <div class="image">
+      <a href="https://www.w3schools.com/js/default.asp">
+        <img src="JavaScript.Jpeg" alt="JavaScript">
+      </a>
+      <p>Learn Here JAVASCRIPT</p>
+  </div>
+
+</body>
+</html>
+
+
+
+
